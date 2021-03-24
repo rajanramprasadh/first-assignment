@@ -15,7 +15,9 @@ function App() {
   return (
     <div className="App">
       <UserInput onchange={usernameChangeHandler} username={username} />
-      <UserOutput>{username}</UserOutput>
+      <UserOutput userName={username} />
+      <UserOutput userName={username} />
+      <UserOutput userName={username} />
     </div>
   );
 }

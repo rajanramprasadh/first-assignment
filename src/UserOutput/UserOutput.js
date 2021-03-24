@@ -5,7 +5,7 @@ import './UserOutput.css';
 const userOutput = ( props ) => {
     return (
         <div className="UserOutput">
-            <p>{props.children}</p>
+            <p>{props.userName}</p>
             <p>Above is my Username</p>
         </div>
     )
