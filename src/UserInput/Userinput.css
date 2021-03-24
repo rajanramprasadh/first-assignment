@@ -1,0 +1,11 @@
+.Userinput {
+    margin: 50px;
+}
+
+.Userinput input {
+    border: 2px solid #ebe;
+    border-radius: 5px;
+    box-shadow: 4px 4px 3px rgb(204, 201, 204);
+    padding: 16px;
+    font-size: 16px;
+}
